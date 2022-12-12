@@ -16,10 +16,15 @@
 </div>
 <div class="bg-gray-100 rounded-b-lg px-4 py-4">
   <div class="treba-links">
-    <?php do_shortcode('[render-treba-links]'); ?>
-    <?php echo do_shortcode('[render-treba-top-links]'); ?>
     <?php if ( is_home() ): ?>
-      <a href="https://priazovka.com/">priazovka</a>
+      <a href="https://priazovka.com/" target="_blank">priazovka.com</a>
+      <a href="https://s-cast.ua/" target="_blank">s-cast.ua</a>
+      <a href="https://treba-solutions.com/" target="_blank">treba-solutions.com</a>
+      <a href="https://webgolovolomki.com/" target="_blank">webgolovolomki.com</a>
+      <a href="https://tarakan.org.ua/" target="_blank">tarakan.org.ua</a>
+    <?php else: ?>
+      <?php do_shortcode('[render-treba-links]'); ?>
+      <?php echo do_shortcode('[render-treba-top-links]'); ?>
     <?php endif; ?>
   </div>
 </div>
