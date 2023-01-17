@@ -33,6 +33,7 @@ include('inc/share-social.php');
 include('inc/comments-functions.php');
 include('inc/create-custom-posts.php');
 include('inc/create-custom-taxonomy.php');
+include('inc/super-links/super-functions.php');
 
 use Carbon_Fields\Container;
 use Carbon_Fields\Field;

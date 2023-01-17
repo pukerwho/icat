@@ -24,8 +24,20 @@
       <a href="https://tarakan.org.ua/" target="_blank">tarakan.org.ua</a>
       <a href="https://sdamkvartiry.com/" target="_blank">sdamkvartiry.com</a>
     <?php else: ?>
-      <?php do_shortcode('[render-treba-links]'); ?>
-      <?php echo do_shortcode('[render-treba-top-links]'); ?>
+
+      <?php 
+        $current_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $super_links = super_links($current_url);
+        // shuffle($super_links);
+        foreach ($super_links as $super_link):
+      ?>
+        <?php echo $super_link->top_links; ?>
+      <?php endforeach; ?>
+
+      <?php 
+        // do_shortcode('[render-treba-links]'); 
+        // echo do_shortcode('[render-treba-top-links]');
+      ?>
     <?php endif; ?>
   </div>
 </div>
