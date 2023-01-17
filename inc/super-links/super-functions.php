@@ -86,6 +86,7 @@ function prepare_links() {
   $priazovka = priazovka_create_link();
 
   array_push($all_links, $webg, $scast, $treba, $sdam, $tarakan, $priazovka); 
+  shuffle($all_links);
   return $all_links;
 }
 
