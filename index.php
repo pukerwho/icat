@@ -121,7 +121,7 @@
           <?php endwhile; endif; wp_reset_postdata(); ?>
         </div>
         <div class="text-center mb-12 lg:mb-0">
-          <a href="<?php echo get_post_type_archive_link('items'); ?>" class="bg-transparent hover:bg-blue-500 border-2 border-blue-500 text-theme-dark hover:text-gray-200 rounded-lg px-6 py-3"><?php _e("Все объявления", "treba-wp"); ?></a>
+          <a href="<?php echo get_page_url('page-items'); ?>" class="bg-transparent hover:bg-blue-500 border-2 border-blue-500 text-theme-dark hover:text-gray-200 rounded-lg px-6 py-3"><?php _e("Все объявления", "treba-wp"); ?></a>
         </div>
       </div>
       <div class="w-full lg:w-1/3 lg:px-6">
