@@ -29,7 +29,7 @@ Template Name: БЛОГ
     <?php 
       $big = 9999999991; // уникальное число
       echo paginate_links( array(
-        'format' => '?page=%#%',
+        'format' => '?paged=%#%',
         'total' => $all_posts->max_num_pages,
         'current' => $current,
         'prev_next' => true,
