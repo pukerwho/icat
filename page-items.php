@@ -11,12 +11,13 @@ Template Name: All Items
       <h1 class="inline-block bg-blue-500 text-2xl text-gray-200 uppercase rounded-lg -rotate-2 px-4 py-2 mb-10"><?php _e("Все объявления", "treba-wp"); ?></h1>
       <div class="mb-10">
         <?php 
-          $current_page = !empty( $_GET['page'] ) ? $_GET['page'] : 1;
+          global $wp_query, $wp_rewrite;
+          $wp_query->query_vars['paged'] > 1 ? $current = $wp_query->query_vars['paged'] : $current = 1;
           $all_items = new WP_Query( array( 
             'post_type' => 'items', 
             'posts_per_page' => 20,
             'order' => 'DESC',
-            'paged' => $current_page,
+            'paged' => $current,
           ) );
           if ($all_items->have_posts()) : while ($all_items->have_posts()) : $all_items->the_post(); 
         ?>
@@ -29,9 +30,9 @@ Template Name: All Items
         <?php 
           $big = 9999999991; // уникальное число
           echo paginate_links( array(
-            'format' => '?page=%#%',
+            'format' => '?paged=%#%',
             'total' => $all_items->max_num_pages,
-            'current' => $current_page,
+            'current' => $current,
             'prev_next' => true,
             'next_text' => (''),
             'prev_text' => (''),
