@@ -846,76 +846,130 @@ function webg_links() {
 "что такое верстка сайта простыми словами",
       )
     ),
-    // 69 =>
-    // array (
-    //   "link" => "",
-    //   "anchors" => array (
-        
-    //   )
-    // ),
-    // 70 =>
-    // array (
-    //   "link" => "",
-    //   "anchors" => array (
-        
-    //   )
-    // ),
-    // 71 =>
-    // array (
-    //   "link" => "",
-    //   "anchors" => array (
-        
-    //   )
-    // ),
-    // 72 =>
-    // array (
-    //   "link" => "",
-    //   "anchors" => array (
-        
-    //   )
-    // ),
-    // 73 =>
-    // array (
-    //   "link" => "",
-    //   "anchors" => array (
-        
-    //   )
-    // ),
-    // 74 =>
-    // array (
-    //   "link" => "",
-    //   "anchors" => array (
-        
-    //   )
-    // ),
-    // 75 =>
-    // array (
-    //   "link" => "",
-    //   "anchors" => array (
-        
-    //   )
-    // ),
-    // 76 =>
-    // array (
-    //   "link" => "",
-    //   "anchors" => array (
-        
-    //   )
-    // ),
-    // 77 =>
-    // array (
-    //   "link" => "",
-    //   "anchors" => array (
-        
-    //   )
-    // ),
-    // 78 =>
-    // array (
-    //   "link" => "",
-    //   "anchors" => array (
-        
-    //   )
-    // ),
+    69 =>
+    array (
+      "link" => "https://webgolovolomki.com/uk/yak-stvoryty-hrupu-v-telegram/",
+      "anchors" => array (
+        "як створити групу в Telegram",
+"як створити групу в Телеграмі на телефоні",
+"створити групу в Телеграмі на айфоні",
+"як створити групу в Telegram для Android iOS і Windows",
+"як створити закриту групу в Телеграмі",
+"створити публічну групу в Телеграмі",
+"як зробити свою групу в Telegram",
+"як створити чат в Telegram",
+"створити окремий чат в Телеграмі",
+      )
+    ),
+    70 =>
+    array (
+      "link" => "https://webgolovolomki.com/kak-sozdat-gruppu-v-telegram/",
+      "anchors" => array (
+        "как создать группу в Telegram",
+"как создать группу в Телеграме на телефоне",
+"создать группу в Телеграме на айфоне",
+"как создать группу в Telegram для Android iOS и Windows",
+"как создать закрытую группу в Телеграме",
+"создать публичную группу в Телеграме",
+"как сделать свою группу в Telegram",
+"как создать чат в Telegram",
+"создать отдельный чат в Телеграме",
+      )
+    ),
+    71 =>
+    array (
+      "link" => "https://webgolovolomki.com/uk/shcho-robyty-yakshcho-zablokuvaly-instahram/",
+      "anchors" => array (
+        "заблокували Instagram на 30 днів",
+"заблокували Інстаграм через вік",
+"заблокували сторінку в Instagram",
+"тимчасово заблокували Інстаграм",
+"як розблокувати сторінку в Instagram",
+"як розблокувати акаунт в інстаграмі",
+"як відновити Instagram",
+"обліковий запис Instagram заблоковано",
+"як відновити тимчасово заблокований аккаунт Instagram",
+"як зрозуміти що забанили в Інстаграмі",
+      )
+    ),
+    72 =>
+    array (
+      "link" => "https://webgolovolomki.com/chto-delat-esli-zablokirovali-instagram/",
+      "anchors" => array (
+        "заблокировали Instagram на 30 дней",
+"заблокировали Инстаграм через возраст",
+"заблокировали страницу в Instagram",
+"временно заблокировали Инстаграм",
+"как разблокировать страницу в Instagram",
+"как разблокировать аккаунт в инстаграмме",
+"как восстановить Instagram",
+"аккаунт Instagram заблокирован",
+"как восстановить временно заблокированный аккаунт Instagram",
+"как понять что забанили в Инстаграмме",
+      )
+    ),
+    73 =>
+    array (
+      "link" => "https://webgolovolomki.com/uk/nick-v-telegram/",
+      "anchors" => array (
+        "що таке юзернейм в Телеграм",
+"як змінити ім’я користувача в Telegram",
+"як дізнатися свій ник в Телеграмі",
+"як створити ім’я в Телеграмі",
+"як скопіювати nickname в Telegram",
+      )
+    ),
+    74 =>
+    array (
+      "link" => "https://webgolovolomki.com/nick-v-telegram/",
+      "anchors" => array (
+        "что такое юзернейм в Telegram",
+"как изменить имя пользователя в Telegram",
+"как узнать свой ник в Telegram",
+"как создать имя в Telegram",
+"как скопировать nickname в Telegram",
+      )
+    ),
+    75 =>
+    array (
+      "link" => "https://webgolovolomki.com/uk/yak-stvoryty-v-telegram-svii-kanal/",
+      "anchors" => array (
+        "інструкція як створити в Телеграмі канал",
+"як створити телеграм-канал",
+"створити свій канал в Telegram із коментарями",
+"як створити в Telegram свій канал",
+      )
+    ),
+    76 =>
+    array (
+      "link" => "https://webgolovolomki.com/kak-sozdat-v-telegram-svoj-kanal/",
+      "anchors" => array (
+        "инструкция как создать в Телеграме канал",
+"как создать Telegram-канал",
+"создать свой канал в Telegram с комментариями",
+"как создать в Telegram свой канал",
+      )
+    ),
+    77 =>
+    array (
+      "link" => "https://webgolovolomki.com/uk/rozkadrovka-video-shcho-tse-take-ta-yak-robyty/",
+      "anchors" => array (
+        "як робити розкадрування",
+"з чого почати розкадрування",
+"‎як зробити розкадровку відео",
+"розкадровка відео простими словами",
+      )
+    ),
+    78 =>
+    array (
+      "link" => "https://webgolovolomki.com/raskadrovka-video-chto-eto-takoe-i-kak-delat/",
+      "anchors" => array (
+        "как делать раскадрование",
+"с чего начать раскадрование",
+"как сделать раскадровку видео",
+"раскадровка видео простыми словами",
+      )
+    ),
     // 79 =>
     // array (
     //   "link" => "",

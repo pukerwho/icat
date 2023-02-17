@@ -6,6 +6,7 @@ include('treba-links.php');
 include('priazovka-links.php');
 include('tarakan-links.php');
 include('sdam-links.php');
+include('autofuture-links.php');
 
 function links_activated() {
   global $wpdb;
@@ -78,14 +79,22 @@ function get_super_links($id) {
 function prepare_links() {
   $all_links = array();
   $webg = webg_create_link();
-  $scast = scast_create_link();
-
   $treba = treba_create_link();
   $sdam = sdam_create_link();
   $tarakan = tarakan_create_link();
   $priazovka = priazovka_create_link();
 
-  array_push($all_links, $webg, $scast, $treba, $sdam, $tarakan, $priazovka); 
+  $rand_i = mt_rand(1, 2);
+  switch ($rand_i) {
+    case 1:
+      $client = scast_create_link();
+      break;
+    case 2:
+      $client = autofuture_create_link();
+      break;
+  }
+
+  array_push($all_links, $webg, $treba, $sdam, $tarakan, $priazovka, $client); 
   shuffle($all_links);
   return $all_links;
 }
