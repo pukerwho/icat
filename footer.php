@@ -37,6 +37,9 @@
                 <a href="<?php echo get_term_link($footer_category); ?>"><?php echo $footer_category->name ?></a>
               </li>
             <?php endforeach; ?>
+            <li class="font-light mb-2">
+              <a href="https://icatalog.pro/12585-kak-zashhitit-kameru-videonabljudenija-ot-nasekomyh-i-pautiny/">Как защитить камеру видеонаблюдения</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -57,6 +60,9 @@
                 <a href="<?php echo get_term_link($footer_tag); ?>"><?php echo $footer_tag->name ?></a>
               </li>
             <?php endforeach; ?>
+            <li class="font-light mb-2">
+              <a href="https://icatalog.pro/12610-kak-vybrat-pravilnyj-kondicioner-v-dom/">Как выбрать правильный кондиционер в дом</a>
+            </li>
           </ul>
         </div>
       </div>
