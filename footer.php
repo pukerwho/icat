@@ -61,7 +61,7 @@
               </li>
             <?php endforeach; ?>
             <li class="font-light mb-2">
-              <a href="https://icatalog.pro/12610-kak-vybrat-pravilnyj-kondicioner-v-dom/">Как выбрать правильный кондиционер в дом</a>
+              <a href="https://icatalog.pro/12670-o-vazhnosti-roli-videonabljudenija-v-sisteme-ohrany-chastnogo-doma/">О важности роли видеонаблюдения</a>
             </li>
           </ul>
         </div>
