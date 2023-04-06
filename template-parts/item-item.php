@@ -2,7 +2,7 @@
   <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
     <div class="text-xl">⭐ <a href="<?php the_permalink(); ?>" class="hover:text-blue-500"><?php the_title(); ?></a></div>
     <?php if (carbon_get_the_post_meta('crb_items_price')): ?>
-      <div class="mt-4 lg:mt-0">
+      <div class="flex mt-4 lg:mt-0">
         <span class="bg-green-500 text-gray-200 text-center font-bold rounded-lg px-4 py-2"><?php echo carbon_get_the_post_meta('crb_items_price'); ?> грн.</span>
       </div>
     <?php endif; ?>
