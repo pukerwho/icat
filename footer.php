@@ -23,22 +23,21 @@
 
       <div class="w-full lg:w-3/12 lg:px-8 mb-6 lg:mb-0">
         <div class="text-lg text-gray-400 uppercase mb-4">
-          <?php _e('Категории', 'treba-wp'); ?>
+          <?php _e('ТОП', 'treba-wp'); ?>
         </div>
         <div>
           <ul>
-            <?php $footer_categories = get_terms( array( 
-              'taxonomy' => 'board',
-              'parent' => 0, 
-            ) );
-            shuffle($footer_categories);
-            foreach ( array_slice($footer_categories, 0, 5) as $footer_category ): ?>
-              <li class="font-light mb-2">
-                <a href="<?php echo get_term_link($footer_category); ?>"><?php echo $footer_category->name ?></a>
-              </li>
-            <?php endforeach; ?>
             <li class="font-light mb-2">
-              <a href="https://icatalog.pro/12585-kak-zashhitit-kameru-videonabljudenija-ot-nasekomyh-i-pautiny/">Как защитить камеру видеонаблюдения</a>
+              <a href="https://icatalog.pro/12585-zashhita-kamery-videonabljudeniya/">Как защитить камеру видеонаблюдения</a>
+            </li>
+            <li class="font-light mb-2">
+              <a href="https://icatalog.pro/12670-vazhnost-roli-videonabljudenija/">О важности роли видеонаблюдения</a>
+            </li>
+            <li class="font-light mb-2">
+              <a href="https://icatalog.pro/12729-dostavka-tovara-ukraina-ebay/">Как доставить товары в Украину из Ebay</a>
+            </li>
+            <li class="font-light mb-2">
+              <a href="https://icatalog.pro/12745-komplekt-videonabljudenija/">Комплект видеонаблюдения</a>
             </li>
           </ul>
         </div>
@@ -60,9 +59,6 @@
                 <a href="<?php echo get_term_link($footer_tag); ?>"><?php echo $footer_tag->name ?></a>
               </li>
             <?php endforeach; ?>
-            <li class="font-light mb-2">
-              <a href="https://icatalog.pro/12670-o-vazhnosti-roli-videonabljudenija-v-sisteme-ohrany-chastnogo-doma/">О важности роли видеонаблюдения</a>
-            </li>
           </ul>
         </div>
       </div>
