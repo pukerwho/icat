@@ -26,20 +26,11 @@
           <?php _e('ТОП', 'treba-wp'); ?>
         </div>
         <div>
-          <ul>
-            <li class="font-light mb-2">
-              <a href="https://icatalog.pro/12585-zashhita-kamery-videonabljudeniya/">Как защитить камеру видеонаблюдения</a>
-            </li>
-            <li class="font-light mb-2">
-              <a href="https://icatalog.pro/12670-vazhnost-roli-videonabljudenija/">О важности роли видеонаблюдения</a>
-            </li>
-            <li class="font-light mb-2">
-              <a href="https://icatalog.pro/12729-dostavka-tovara-ukraina-ebay/">Как доставить товары в Украину из Ebay</a>
-            </li>
-            <li class="font-light mb-2">
-              <a href="https://icatalog.pro/12745-komplekt-videonabljudenija/">Комплект видеонаблюдения</a>
-            </li>
-          </ul>
+          <?php wp_nav_menu([
+            'theme_location' => 'footer',
+            'container' => 'div',
+            'menu_class' => 'footer-menu font-light'
+          ]); ?> 
         </div>
       </div>
 

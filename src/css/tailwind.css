@@ -29,6 +29,9 @@ body {
 .header .top-menu a {
   @apply text-gray-200 hover:text-blue-500;
 }
+.footer-menu li {
+  @apply mb-2;
+}
 .welcome-image {
   @apply relative rounded-xl;
 }
