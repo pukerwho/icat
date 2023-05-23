@@ -22,6 +22,7 @@
       <a href="https://treba-solutions.com/" target="_blank">treba-solutions.com</a>
       <a href="https://webgolovolomki.com/" target="_blank">webgolovolomki.com</a>
       <a href="https://tarakan.org.ua/" target="_blank">tarakan.org.ua</a>
+      <a href="https://d-art.org.ua/" target="_blank">d-art.org.ua</a>
       <a href="https://sdamkvartiry.com/" target="_blank">sdamkvartiry.com</a>
     <?php else: ?>
 
