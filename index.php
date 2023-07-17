@@ -103,41 +103,44 @@
         </div>
       </div>
       <div class="w-full lg:w-1/3 lg:px-6">
-        <div class="bg-theme-dark text-gray-200 rounded-t-lg px-2 py-4">
-          <div class="text-xl text-center font-semibold"><?php _e("ТОП записи", "treba-wp"); ?></div>
-        </div>
-        <div class="bg-gray-100 rounded-b-lg px-4 py-4 mb-6">
-          <ul>
-            <li class="mb-3"><a href="https://icatalog.pro/kak-sdelat-gamburger-menyu-gotovyj-kod-i-podrobnoe-obyasnenie/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать гамбургер меню</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/change-color-in-svg/" class="opacity-75 hover:text-blue-500 font-medium">Как изменить цвет SVG в CSS</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/poyavlenie-elementov-pri-skrolle/" class="opacity-75 hover:text-blue-500 font-medium">Появление элементов при скролле</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/kak-pozhalovatsya-na-telegram-kanal-podrobnaya-instrukciya/" class="opacity-75 hover:text-blue-500 font-medium">Как пожаловаться на Telegram канал</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/nick-v-telegram/" class="opacity-75 hover:text-blue-500 font-medium">Ник в Telegram</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/kak-vyrovnyat-kartinku-po-czentru-s-pomoshhyu-css/" class="opacity-75 hover:text-blue-500 font-medium">Как выровнять картинку по центру с помощью CSS</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/kak-sdelat-plavnoe-uvelichenie-kartinki-pri-navedenii-effekt-na-chistom-css/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать плавное увеличение картинки при наведении</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/kak-sdelat-effekt-nazhatiya-knopki-na-css/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать эффект нажатия кнопки на CSS</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/how-to-add-a-css-class-on-scrol/" class="opacity-75 hover:text-blue-500 font-medium"></a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/shcho-robyty-yakshcho-zablokuvaly-instahram/" class="opacity-75 hover:text-blue-500 font-medium">Заблокували Instagram: що робити</a></li>
-          </ul>
-        </div>
+        <div class="sticky top-5">
+          <div class="bg-theme-dark text-gray-200 rounded-t-lg px-2 py-4">
+            <div class="text-xl text-center font-semibold"><?php _e("ТОП записи", "treba-wp"); ?></div>
+          </div>
+          <div class="bg-gray-100 rounded-b-lg px-4 py-4 mb-6">
+            <ul>
+              <li class="mb-3"><a href="https://icatalog.pro/kak-sdelat-gamburger-menyu-gotovyj-kod-i-podrobnoe-obyasnenie/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать гамбургер меню</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/change-color-in-svg/" class="opacity-75 hover:text-blue-500 font-medium">Как изменить цвет SVG в CSS</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/poyavlenie-elementov-pri-skrolle/" class="opacity-75 hover:text-blue-500 font-medium">Появление элементов при скролле</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/kak-pozhalovatsya-na-telegram-kanal-podrobnaya-instrukciya/" class="opacity-75 hover:text-blue-500 font-medium">Как пожаловаться на Telegram канал</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/nick-v-telegram/" class="opacity-75 hover:text-blue-500 font-medium">Ник в Telegram</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/kak-vyrovnyat-kartinku-po-czentru-s-pomoshhyu-css/" class="opacity-75 hover:text-blue-500 font-medium">Как выровнять картинку по центру с помощью CSS</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/kak-sdelat-plavnoe-uvelichenie-kartinki-pri-navedenii-effekt-na-chistom-css/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать плавное увеличение картинки при наведении</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/kak-sdelat-effekt-nazhatiya-knopki-na-css/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать эффект нажатия кнопки на CSS</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/how-to-add-a-css-class-on-scrol/" class="opacity-75 hover:text-blue-500 font-medium"></a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/shcho-robyty-yakshcho-zablokuvaly-instahram/" class="opacity-75 hover:text-blue-500 font-medium">Заблокували Instagram: що робити</a></li>
+            </ul>
+          </div>
 
-        <div class="bg-theme-dark text-gray-200 rounded-t-lg px-2 py-4">
-          <div class="text-xl text-center font-semibold"><?php _e("Зараз читають", "treba-wp"); ?></div>
+          <div class="bg-theme-dark text-gray-200 rounded-t-lg px-2 py-4">
+            <div class="text-xl text-center font-semibold"><?php _e("Зараз читають", "treba-wp"); ?></div>
+          </div>
+          <div class="bg-gray-100 rounded-b-lg px-4 py-4 mb-6">
+            <ul>
+              <li class="mb-3"><a href="https://icatalog.pro/how-black-in-image/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать затемнение фона (картинки) на CSS</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/kak-ochistit-kesh-v-telegram/" class="opacity-75 hover:text-blue-500 font-medium">Как очистить кэш в Telegram</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/kak-izmenit-czvet-knopki-polnaya-instrukcziya-dlya-novichkov/" class="opacity-75 hover:text-blue-500 font-medium">Как изменить цвет кнопки</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/najpopulyarnishi-polski-imena/" class="opacity-75 hover:text-blue-500 font-medium">Найпопулярніші польські імена</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/add-js-in-html/" class="opacity-75 hover:text-blue-500 font-medium">Правильно подключаем Javascript в HTML</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/samaya-vkusnaya-shaurma-v-kieve/" class="opacity-75 hover:text-blue-500 font-medium">Где в Киеве самая вкусная шаурма</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/seo-optimizacziya-sajta-na-tilde-polnoe-rukovodstvo/" class="opacity-75 hover:text-blue-500 font-medium">Seo-оптимизация сайта на Тильде</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/rokiv-vesillia-pryvitannia-vitannia-do-ahatovoho-vesillia/" class="opacity-75 hover:text-blue-500 font-medium">14 років весілля привітання</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/perenos-sajta-na-tilde-na-svoj-hosting-poshagovoe-rukovodstvo/" class="opacity-75 hover:text-blue-500 font-medium">Перенос сайта на Тильде на свой хостинг</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/kak-zagruzit-golosovoe-soobshchenie-v-telegram/" class="opacity-75 hover:text-blue-500 font-medium">Как скачать голосовое сообщение в Telegram</a></li>
+              <li class="mb-3"><a href="https://icatalog.pro/shho-prygotuvaty-yisty-z-nichogo-7-idej/" class="opacity-75 hover:text-blue-500 font-medium">Що приготувати їсти з нічого</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="bg-gray-100 rounded-b-lg px-4 py-4 mb-6">
-          <ul>
-            <li class="mb-3"><a href="https://icatalog.pro/how-black-in-image/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать затемнение фона (картинки) на CSS</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/kak-ochistit-kesh-v-telegram/" class="opacity-75 hover:text-blue-500 font-medium">Как очистить кэш в Telegram</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/kak-izmenit-czvet-knopki-polnaya-instrukcziya-dlya-novichkov/" class="opacity-75 hover:text-blue-500 font-medium">Как изменить цвет кнопки</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/najpopulyarnishi-polski-imena/" class="opacity-75 hover:text-blue-500 font-medium">Найпопулярніші польські імена</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/add-js-in-html/" class="opacity-75 hover:text-blue-500 font-medium">Правильно подключаем Javascript в HTML</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/samaya-vkusnaya-shaurma-v-kieve/" class="opacity-75 hover:text-blue-500 font-medium">Где в Киеве самая вкусная шаурма</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/seo-optimizacziya-sajta-na-tilde-polnoe-rukovodstvo/" class="opacity-75 hover:text-blue-500 font-medium">Seo-оптимизация сайта на Тильде</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/rokiv-vesillia-pryvitannia-vitannia-do-ahatovoho-vesillia/" class="opacity-75 hover:text-blue-500 font-medium">14 років весілля привітання</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/perenos-sajta-na-tilde-na-svoj-hosting-poshagovoe-rukovodstvo/" class="opacity-75 hover:text-blue-500 font-medium">Перенос сайта на Тильде на свой хостинг</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/kak-zagruzit-golosovoe-soobshchenie-v-telegram/" class="opacity-75 hover:text-blue-500 font-medium">Как скачать голосовое сообщение в Telegram</a></li>
-            <li class="mb-3"><a href="https://icatalog.pro/shho-prygotuvaty-yisty-z-nichogo-7-idej/" class="opacity-75 hover:text-blue-500 font-medium">Що приготувати їсти з нічого</a></li>
-          </ul>
       </div>
     </div>
     
