@@ -78,27 +78,51 @@
     <?php endwhile; endif; wp_reset_postdata(); ?>
   </div>
   <div class="mb-20">
-    <div class="flex justify-center">
-      <h2 class="inline-block bg-theme-dark text-2xl text-gray-200 uppercase rounded-lg -rotate-2 px-4 py-2 mb-10"><?php _e("Новые публикации", "treba-wp"); ?></h2>
-    </div> 
-    <div class="flex flex-wrap lg:-mx-6 mb-6">
-      <?php 
-        $new_posts = new WP_Query( array( 
-          'post_type' => 'post', 
-          'posts_per_page' => 9,
-          'order' => 'DESC',
-          'offset' => 1,
-        ) );
-        if ($new_posts->have_posts()) : while ($new_posts->have_posts()) : $new_posts->the_post(); 
-      ?>
-        <div class="w-full lg:w-1/3 lg:px-6 mb-6">
-          <?php get_template_part('template-parts/post-item'); ?>
+    <div class="flex flex-wrap lg:-mx-6">
+      <div class="w-full lg:w-2/3 lg:px-6 mb-6 lg:mb-0">
+        <div class="flex justify-center">
+          <h2 class="inline-block bg-theme-dark text-2xl text-gray-200 uppercase rounded-lg -rotate-2 px-4 py-2 mb-10"><?php _e("Новые публикации", "treba-wp"); ?></h2>
+        </div> 
+        <div class="flex flex-wrap lg:-mx-6 mb-6">
+          <?php 
+            $new_posts = new WP_Query( array( 
+              'post_type' => 'post', 
+              'posts_per_page' => 10,
+              'order' => 'DESC',
+              'offset' => 1,
+            ) );
+            if ($new_posts->have_posts()) : while ($new_posts->have_posts()) : $new_posts->the_post(); 
+          ?>
+            <div class="w-full lg:w-1/2 lg:px-6 mb-6">
+              <?php get_template_part('template-parts/post-item'); ?>
+            </div>
+          <?php endwhile; endif; wp_reset_postdata(); ?>
         </div>
-      <?php endwhile; endif; wp_reset_postdata(); ?>
+        <div class="text-center">
+          <a href="<?php echo get_page_url('page-blog'); ?>" class="bg-transparent hover:bg-theme-dark border-2 border-theme-dark text-theme-dark hover:text-gray-200 rounded-lg px-6 py-3"><?php _e("Все публикации", "treba-wp"); ?></a>
+        </div>
+      </div>
+      <div class="w-full lg:w-1/3 lg:px-6">
+        <div class="bg-theme-dark text-gray-200 rounded-t-lg px-2 py-4">
+          <div class="text-xl text-center font-semibold"><?php _e("ТОП записи", "treba-wp"); ?></div>
+        </div>
+        <div class="bg-gray-100 rounded-b-lg px-4 py-4 mb-6">
+          <ul>
+            <li class="mb-3"><a href="https://icatalog.pro/kak-sdelat-gamburger-menyu-gotovyj-kod-i-podrobnoe-obyasnenie/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать гамбургер меню</a></li>
+            <li class="mb-3"><a href="https://icatalog.pro/change-color-in-svg/" class="opacity-75 hover:text-blue-500 font-medium">Как изменить цвет SVG в CSS</a></li>
+            <li class="mb-3"><a href="https://icatalog.pro/poyavlenie-elementov-pri-skrolle/" class="opacity-75 hover:text-blue-500 font-medium">Появление элементов при скролле</a></li>
+            <li class="mb-3"><a href="https://icatalog.pro/kak-pozhalovatsya-na-telegram-kanal-podrobnaya-instrukciya/" class="opacity-75 hover:text-blue-500 font-medium">Как пожаловаться на Telegram канал</a></li>
+            <li class="mb-3"><a href="https://icatalog.pro/nick-v-telegram/" class="opacity-75 hover:text-blue-500 font-medium">Ник в Telegram</a></li>
+            <li class="mb-3"><a href="https://icatalog.pro/kak-vyrovnyat-kartinku-po-czentru-s-pomoshhyu-css/" class="opacity-75 hover:text-blue-500 font-medium">Как выровнять картинку по центру с помощью CSS</a></li>
+            <li class="mb-3"><a href="https://icatalog.pro/kak-sdelat-plavnoe-uvelichenie-kartinki-pri-navedenii-effekt-na-chistom-css/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать плавное увеличение картинки при наведении</a></li>
+            <li class="mb-3"><a href="https://icatalog.pro/kak-sdelat-effekt-nazhatiya-knopki-na-css/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать эффект нажатия кнопки на CSS</a></li>
+            <li class="mb-3"><a href="https://icatalog.pro/how-to-add-a-css-class-on-scrol/" class="opacity-75 hover:text-blue-500 font-medium"></a></li>
+            <li class="mb-3"><a href="https://icatalog.pro/shcho-robyty-yakshcho-zablokuvaly-instahram/" class="opacity-75 hover:text-blue-500 font-medium">Заблокували Instagram: що робити</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="text-center">
-      <a href="<?php echo get_page_url('page-blog'); ?>" class="bg-transparent hover:bg-theme-dark border-2 border-theme-dark text-theme-dark hover:text-gray-200 rounded-lg px-6 py-3"><?php _e("Все публикации", "treba-wp"); ?></a>
-    </div>
+    
   </div>
 
   <!-- Объявления -->
