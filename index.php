@@ -87,7 +87,7 @@
           <?php 
             $new_posts = new WP_Query( array( 
               'post_type' => 'post', 
-              'posts_per_page' => 10,
+              'posts_per_page' => 8,
               'order' => 'DESC',
               'offset' => 1,
             ) );
