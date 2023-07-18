@@ -123,7 +123,7 @@
           </div>
 
           <div class="bg-theme-dark text-gray-200 rounded-t-lg px-2 py-4">
-            <div class="text-xl text-center font-semibold"><?php _e("Зараз читають", "treba-wp"); ?></div>
+            <div class="text-xl text-center font-semibold"><?php _e("Сейчас читают", "treba-wp"); ?></div>
           </div>
           <div class="bg-gray-100 rounded-b-lg px-4 py-4 mb-6">
             <ul>
