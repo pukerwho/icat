@@ -127,6 +127,7 @@
           </div>
           <div class="bg-gray-100 rounded-b-lg px-4 py-4 mb-6">
             <ul>
+              <li class="mb-3"><a href="https://icatalog.pro/7403-jak-pidpisati-podrugu-v-telefoni/" class="opacity-75 hover:text-blue-500 font-medium">Як підписати подругу в телефоні?</a></li>
               <li class="mb-3"><a href="https://icatalog.pro/how-black-in-image/" class="opacity-75 hover:text-blue-500 font-medium">Как сделать затемнение фона (картинки) на CSS</a></li>
               <li class="mb-3"><a href="https://icatalog.pro/kak-ochistit-kesh-v-telegram/" class="opacity-75 hover:text-blue-500 font-medium">Как очистить кэш в Telegram</a></li>
               <li class="mb-3"><a href="https://icatalog.pro/kak-izmenit-czvet-knopki-polnaya-instrukcziya-dlya-novichkov/" class="opacity-75 hover:text-blue-500 font-medium">Как изменить цвет кнопки</a></li>
