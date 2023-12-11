@@ -44,6 +44,12 @@
       <?php else: ?>
         <?php echo get_the_author(); ?>
       <?php endif; ?>
+      <?php if (carbon_get_the_post_meta('crb_post_editor')): ?>
+        <div class="mt-2">
+          <span class="font-semibold"><?php _e("Редактор", "treba-wp"); ?></span>
+          <span class="italic"><?php echo carbon_get_the_post_meta('crb_post_editor'); ?></span>
+        </div>
+      <?php endif; ?>
     </div>
     <!-- CATEGORY -->
     <div class="mb-4">
