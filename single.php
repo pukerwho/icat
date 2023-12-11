@@ -27,7 +27,7 @@
     <!-- TITLE -->
     <h1 class="text-2xl lg:text-3xl font-semibold mb-4" itemprop="headline"><?php the_title(); ?></h1>  
     <!-- AUTHOR -->
-    <div class="mb-4">
+    <div class="mb-2">
       <span class="font-semibold"><?php _e("Автор", "treba-wp"); ?></span>: 
       <?php if (carbon_get_the_post_meta('crb_post_author')): ?>
         <span class="italic"><?php echo carbon_get_the_post_meta('crb_post_author'); ?></span>
