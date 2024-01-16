@@ -67,7 +67,13 @@
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       </div>
-      <div class="text-gray-600 text-sm"><?php echo get_the_modified_time('d.m.Y') ?>;</div>
+      <div class="text-gray-600 text-sm">
+        <?php if (carbon_get_the_post_meta("crb_post_custom_date")): ?>
+          <?php echo carbon_get_the_post_meta("crb_post_custom_date"); ?>
+        <?php else: ?>
+          <?php echo get_the_modified_time('d.m.Y') ?>;
+        <?php endif; ?>
+      </div>
     </div>
     <!-- IMG -->
     <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="w-full h-full xl:h-full object-cover rounded-xl bg-white shadow-xl border p-6 mb-6" itemprop="image">
