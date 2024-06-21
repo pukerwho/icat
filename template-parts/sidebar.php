@@ -45,13 +45,15 @@
     ) );
     if ($now_posts->have_posts()) : while ($now_posts->have_posts()) : $now_posts->the_post(); 
     ?>
-    <div class="w-full lg:w-1/2 relative border-b border-gray-300 pb-4 mb-4 px-2 last-of-type:pb-0 last-of-type:border-none">
+    <div class="w-full lg:w-1/2 relative mb-4 px-2">
       <a href="<?php the_permalink(); ?>" class="w-full h-full absolute top-0 left-0 z-1"></a>
-      <div class="mb-4">
-        <img  src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>" alt="<?php the_title(); ?>" class="w-full h-full object-cover aspect-video">
-      </div>
-      <div class="font-medium text-sm text-center">
-        <?php the_title(); ?>
+      <div class="bg-white rounded">
+        <div>
+          <img  src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>" alt="<?php the_title(); ?>" class="w-full h-full object-cover aspect-video">
+        </div>
+        <div class="font-medium text-sm text-center p-2">
+          <?php the_title(); ?>
+        </div>
       </div>
     </div>
     <?php endwhile; endif; wp_reset_postdata(); ?>
