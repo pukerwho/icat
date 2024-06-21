@@ -114,6 +114,33 @@
       </div>
     <?php endwhile; endif; wp_reset_postdata(); ?>
   </div>
+
+  <div class="flex justify-center mb-6">
+    <div class="inline-block bg-theme-dark text-2xl text-gray-200 uppercase rounded-lg -rotate-2 px-4 py-2 "><?php _e("Сейчас читают", "treba-wp"); ?></div>
+  </div>
+  <div class="flex flex-wrap lg:-mx-6 mb-6">
+    <?php 
+      $current_id = get_the_ID();
+      $similar_posts = new WP_Query( array( 
+        'post_type' => 'post', 
+        'posts_per_page' => 12,
+        'post__not_in' => array($current_id),
+        'orderby' => 'rand',
+        'tax_query' => array(
+          array(
+            'taxonomy'  => 'category',
+            'field'     => 'term_id',
+            'terms'     => array( 79, 4, 1, 82 ),
+          )
+        ),
+      ) );
+      if ($similar_posts->have_posts()) : while ($similar_posts->have_posts()) : $similar_posts->the_post(); 
+    ?>
+      <div class="w-full lg:w-1/3 lg:px-6 mb-6">
+        <?php get_template_part('template-parts/post-item'); ?>
+      </div>
+    <?php endwhile; endif; wp_reset_postdata(); ?>
+  </div>
 </div>
 
 <?php get_footer(); ?>
