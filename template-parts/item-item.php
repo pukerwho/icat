@@ -10,7 +10,7 @@
   
   <div class="flex items-center mb-2 xl:mb-3">
     <?php
-    $item_categories = get_the_terms( $top_items->ID, 'board' );
+    $item_categories = get_the_terms( get_the_ID(), 'board' );
     foreach ($item_categories as $item_category){ ?>
       <a href="<?php echo get_term_link($item_category->term_id, 'board') ?>" class="text-sm inline-block bg-blue-100 hover:bg-blue-200 text-black rounded px-2 py-1 mr-2 mb-2 lg:mb-0"><?php echo carbon_get_term_meta( $item_category->term_id, 'crb_category_emoji' ); ?> <?php echo $item_category->name; ?></a> 
     <?php } ?>

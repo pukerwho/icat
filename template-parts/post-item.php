@@ -16,7 +16,7 @@
     <div class="absolute left-4 top-4">
       <div class="flex items-center mb-2 xl:mb-3">
         <?php
-        $post_categories = get_the_terms( $new_posts->ID, 'category' );
+        $post_categories = get_the_terms( get_the_ID(), 'category' );
         foreach ($post_categories as $post_category){ ?>
           <a href="<?php echo get_term_link($post_category->term_id, 'category') ?>" class="text-sm inline-block bg-yellow-100 text-black rounded px-2 py-1 mr-2 mb-2 lg:mb-0"><?php echo carbon_get_term_meta( $post_category->term_id, 'crb_category_emoji' ); ?> <?php echo $post_category->name; ?></a> 
         <?php } ?>

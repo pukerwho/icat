@@ -6,9 +6,7 @@
     $current_year = date("Y");
   ?>
   <title><?php echo $current_title; ?></title>
-  <?php if ($current_description): ?>
-    <meta name="description" content="<?php echo $current_description; ?>"/>
-  <?php endif; ?>
+  
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
